@@ -23,7 +23,7 @@ Example of `hello/` project in Eclipse with OCaIDE plugin:
 
 ## Project list
 
-* `hello/` - initial trivial Hello World example.
+* [hello/](hello) - initial trivial Hello World example.
 
 
 
