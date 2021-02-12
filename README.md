@@ -24,6 +24,8 @@ Example of `hello/` project in Eclipse with OCaIDE plugin:
 ## Project list
 
 * [hello/](hello) - initial trivial Hello World example.
+* [hello-args/](hello-args) - "advancee" Hello World, that prints passed
+  arguments (or at least `argv[0]` that contains program name).
 
 
 
