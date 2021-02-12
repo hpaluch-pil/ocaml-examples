@@ -1,0 +1,13 @@
+# tmp and backup files
+*.swp
+*.tmp
+*~
+*.bak
+
+# build files
+*.cm?
+*.exe
+*.d
+*.o
+*.annot
+
