@@ -1,0 +1,3 @@
+;; This declares the hello executable implemented by hello.ml
+(executable
+ (name hello))

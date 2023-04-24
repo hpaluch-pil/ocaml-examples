@@ -16,10 +16,10 @@ so OCaml examples can be edited and build:
 sudo zypper in ocaml ocaml-camlp4-devel ocaml-ocamldoc make
 ```
 
-Or under Debian (tested CLI only):
+Or under Debian 11 (tested CLI only):
 ```bash
 sudo apt-get update
-sudo apt-get install make ocaml-nox git
+sudo apt-get install make ocaml-nox ocaml-dune git
 ```
 
 
@@ -31,7 +31,8 @@ Example of `hello/` project in Eclipse with OCaIDE plugin:
 ## Project list
 
 * [hello/](hello) - initial trivial Hello World example.
-* [hello-args/](hello-args) - "advancee" Hello World, that prints passed
+* [hello-dune//](hello-dune) - Hello, world! - build with [Dune](https://dune.readthedocs.io/en/latest/overview.html) instead of make
+* [hello-args/](hello-args) - "advanced" Hello World, that prints passed
   arguments (or at least `argv[0]` that contains program name).
 * [wordcount-mll/](wordcount-mll) - Word Count utility written in
   [ocamllex(1)](https://caml.inria.fr/pub/docs/manual-ocaml/lexyacc.html).
