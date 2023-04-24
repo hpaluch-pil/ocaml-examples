@@ -13,7 +13,7 @@ These packages must be installed under openSUSE LEAP 15.2
 so OCaml examples can be edited and build:
 
 ```bash
-sudo zypper in ocaml ocaml-camlp4-devel ocaml-ocamldoc make
+sudo zypper in ocaml ocaml-dune ocaml-camlp4-devel ocaml-ocamldoc make
 ```
 
 Or under Debian 11 (tested CLI only):
@@ -22,6 +22,10 @@ sudo apt-get update
 sudo apt-get install make ocaml-nox ocaml-dune git
 ```
 
+For Windows (CLI only) please follow Cygwin64/Mingw installation
+- from: https://github.com/fdopen/opam-repository-mingw
+- at the end you may have to additionally run `opam install dune` to build
+  `hello-dune/` example.
 
 Example of `hello/` project in Eclipse with OCaIDE plugin:
 
@@ -50,6 +54,4 @@ Example of `hello/` project in Eclipse with OCaIDE plugin:
   $ wordcount-mll/wordcount.exe < ../flex-wc/README.md
       46     117     755
   ```
-
-
 
