@@ -16,6 +16,13 @@ so OCaml examples can be edited and build:
 sudo zypper in ocaml ocaml-camlp4-devel ocaml-ocamldoc make
 ```
 
+Or under Debian (tested CLI only):
+```bash
+sudo apt-get update
+sudo apt-get install make ocaml-nox git
+```
+
+
 Example of `hello/` project in Eclipse with OCaIDE plugin:
 
 ![Hello in OCaIDE](assets/eclipse-ocaml-ide.png)
