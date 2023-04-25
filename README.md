@@ -1,6 +1,12 @@
 # Examples in OCaml language
 
-(Early) Work in Progress!
+Here are few trivial examples written
+in [OCaml](https://ocaml.org/) language.
+
+I'm interested int OCaml mainly to better understand
+tool [Coccinelle](https://coccinelle.lip6.fr/) tool used to analyse
+and patch C source code.
+
 
 I use:
 - openSUSE LEAP 15.2 with XFCE
