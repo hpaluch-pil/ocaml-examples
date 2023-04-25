@@ -22,6 +22,11 @@ sudo apt-get update
 sudo apt-get install make ocaml-nox ocaml-dune git
 ```
 
+Or under Fedora 38 (tested CLI only):
+```bash
+sudo dnf install git-core make ocaml ocaml-dune
+```
+
 For Windows (CLI only) please follow Cygwin64/Mingw installation
 - from: https://github.com/fdopen/opam-repository-mingw
 - at the end you may have to additionally run `opam install dune` to build
